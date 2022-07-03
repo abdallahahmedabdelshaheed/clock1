@@ -1,0 +1,253 @@
+
+    body{
+        height: 615px;
+        overflow: hidden;
+    }
+
+#clock{
+    width: 270px;
+    height:270px;
+    background-color: rgb(220, 220, 220);
+    border: 3px solid rgb(122, 122, 122);
+    display: flex;
+    flex-direction:column ;
+    border-radius: 50%;
+    position: relative;
+    margin: 150px auto;
+    justify-content: center;
+}
+
+#center{
+    width:10px;
+    height:10px;
+    border-radius: 0%;
+    background-color: rgb(42, 42, 42);
+    position: absolute;
+    z-index: 10;
+    left: 130px;
+    border-radius: 50%;
+}
+
+#hand1d{
+    width: 270px;
+    height:270px;
+    background-color: rgba(220, 220, 220, 0);
+    border: 3px solid rgba(122, 122, 122, 0);
+    display: flex;
+    flex-direction:column ;
+    border-radius: 50%;
+    position: relative;
+    top: -426px;
+    margin: 150px auto;
+    justify-content: center;
+}
+
+#hand1{
+    width:10px;
+    height:10px;
+    border-radius: 0%;
+    background-color: rgb(160, 160, 160);
+    position: absolute;
+    z-index: 1;
+    left: 130px;
+    top: 20px;
+    border-radius: 50%;
+    border-top: 110px solid rgb(160, 160, 160) ;
+    border-bottom: 25px solid rgb(160, 160, 160);
+}
+
+
+#hand2d{
+    width: 270px;
+    height:270px;
+    background-color: rgba(220, 220, 220, 0);
+    border: 3px solid rgba(122, 122, 122, 0);
+    display: flex;
+    flex-direction:column ;
+    border-radius: 50%;
+    position: relative;
+    top: -852px;
+    margin: 150px auto;
+    justify-content: center;
+}
+
+#hand2{
+    width:10px;
+    height:10px;
+    border-radius: 0%;
+    background-color: rgb(130, 130, 130);
+    position: absolute;
+    z-index: 2;
+    left: 130px;
+    top: 50px;
+    border-radius: 50%;
+    border-top: 80px solid rgb(130, 130, 130) ;
+    border-bottom: 25px solid rgb(130, 130, 130);
+}
+
+
+#hand3d{
+    width: 270px;
+    height:270px;
+    background-color: rgba(220, 220, 220, 0);
+    border: 3px solid rgba(122, 122, 122, 0);
+    display: flex;
+    flex-direction:column ;
+    border-radius: 50%;
+    position: relative;
+    top: -1278px;
+    margin: 150px auto;
+    justify-content: center;
+}
+
+#hand3{
+    width:10px;
+    height:10px;
+    border-radius: 0%;
+    background-color: rgb(100, 100, 100);
+    position: absolute;
+    z-index: 3;
+    left: 130px;
+    top: 70px;
+    border-radius: 50%;
+    border-top: 60px solid rgb(100, 100, 100) ;
+    border-bottom: 25px solid rgb(100, 100, 100);
+}
+
+#ho1{
+    width: 20px;
+    height: 3px;
+    background: rgb(122, 122, 122);
+    position: absolute;
+    transform: rotate(-60deg);
+    top: 25px;
+    left: 188px;
+}
+
+#ho2{
+    width: 20px;
+    height: 3px;
+    background: rgb(122, 122, 122);
+    position: absolute;
+    transform: rotate(-30deg);
+    top: 70px;
+    left: 235px;
+}
+
+#ho3{
+    width: 20px;
+    height: 3px;
+    background: rgb(122, 122, 122);
+    position: absolute;
+    transform: rotate(0deg);
+    top: 134px;
+    left: 250px;
+}
+
+#ho4{
+    width: 20px;
+    height: 3px;
+    background: rgb(122, 122, 122);
+    position: absolute;
+    transform: rotate(30deg);
+    bottom: 70px;
+    left: 235px;
+}
+
+#ho5{
+    width: 20px;
+    height: 3px;
+    background: rgb(122, 122, 122);
+    position: absolute;
+    transform: rotate(60deg);
+    bottom:  25px;
+    left: 188px;
+}
+
+#ho6{
+    width: 20px;
+    height: 3px;
+    background: rgb(122, 122, 122);
+    position: absolute;
+    transform: rotate(90deg);
+    top: 259px;
+    left: 125px;
+}
+
+#ho7{
+    width: 20px;
+    height: 3px;
+    background: rgb(122, 122, 122);
+    position: absolute;
+    transform: rotate(-60deg);
+    bottom:  25px;
+    right: 188px;
+}
+
+#ho8{
+    width: 20px;
+    height: 3px;
+    background: rgb(122, 122, 122);
+    position: absolute;
+    transform: rotate(-30deg);
+    bottom: 70px;
+    right:  235px;
+}
+
+#ho9{
+    width: 20px;
+    height: 3px;
+    background: rgb(122, 122, 122);
+    position: absolute;
+    transform: rotate(0deg);
+    top: 134px;
+    left: 0px;
+}
+
+#ho10{
+    width: 20px;
+    height: 3px;
+    background: rgb(122, 122, 122);
+    position: absolute;
+    transform: rotate(60deg);
+    top: 25px;
+    right: 188px;
+}
+
+#ho11{
+    width: 20px;
+    height: 3px;
+    background: rgb(122, 122, 122);
+    position: absolute;
+    transform: rotate(30deg);
+    top: 70px;
+    right: 235px;
+}
+
+#ho12{
+    width: 20px;
+    height: 3px;
+    background: rgb(122, 122, 122);
+    position: absolute;
+    transform: rotate(90deg);
+    top: 8px;
+    left: 125px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
